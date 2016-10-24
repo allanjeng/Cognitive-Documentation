@@ -95,7 +95,7 @@ manual inspection. For each detected community an effort is made to interpret it
 <br>
 "TextInput2": "machine learning",
 <br>
-"similarity": 
+"SimilarityVale": 
 <br>
   [
 <br>
