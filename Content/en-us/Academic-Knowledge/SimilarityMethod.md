@@ -43,11 +43,11 @@ HTTP Status | Reason | Response
 
 **Text String Example:**
 ```
-https://api.projectoxford.ai/academic/v1.0/similarity?s1=this text similarity api is really, really cool&s2=this
+https://api.projectoxford.ai/academic/v1.0/similarity**?s1=**this text similarity api is really, really cool**&s2=**this
 text similarity api is really, really awesome
 
 ```
-In this example, we show that you can input 2 text strings including punctuation markets. 
+In this example, we show that you can input 2 text strings including punctuation marks. 
 <br>
 Here is the output:
 <br>
@@ -99,11 +99,11 @@ manual inspection. For each detected community an effort is made to interpret it
 <br>
   [
 <br>
-    {
+     {
 <br>
-          "logprob": 0.58859153384709628,
+     "logprob": 0.58859153384709628,
 <br>
-    },
+     },
 <br>
   ]
 <br>
