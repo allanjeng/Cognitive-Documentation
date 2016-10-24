@@ -9,8 +9,7 @@ Weight: 75
 # Similarity Method
 
 The **similarity** REST API is used to
-calculate used to return a floating point value
-based on 2 text inputs. 
+calculate a floating point value based on 2 text inputs. 
 
 **REST endpoint:**
 
@@ -35,26 +34,22 @@ Name | Description
 <br>
 
 ## Error Conditions
-HTTP Status        |Reason | Response
-
+HTTP Status | Reason | Response
 -----------|----------|--------
-
 **200**         |Success | floating point number
 **400**         | Bad request or request invalid | Error Message      
 **500**         |Internal server error | Error Message
 <br>
-```
-**Text String Example:**
 
+**Text String Example:**
 ```
 https://api.projectoxford.ai/academic/v1.0/similarity?s1=this text similarity api is really, really cool&s2=this
 text similarity api is really, really awesome
 
 ```
-<br>
 In this example, we show that you can input 2 text strings including punctuation markets.
 
-```
+<br>
 
 **Abstract Comparison Example:**
 
@@ -65,8 +60,6 @@ algorithm that can learn deep directed belief networks one layer at a time
 provided the top two layers form an undirected associative memory &s2= Deep
 neural nets with a large number of parameters are very powerful machine
 learning systems. However, overfitting is a serious problem in such networks
-
- 
 
 ``` 
 
