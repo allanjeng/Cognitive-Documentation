@@ -47,21 +47,22 @@ https://api.projectoxford.ai/academic/v1.0/similarity?s1=this text similarity ap
 text similarity api is really, really awesome
 
 ```
-In this example, we show that you can input 2 text strings including punctuation markets.
-
+In this example, we show that you can input 2 text strings including punctuation markets. Here is the output:
+**Similarity probability: 0.92379162279743876**
 <br>
 
 **Abstract Comparison Example:**
 
 ```
 
-https://api.projectoxford.ai/academic/v1.0/similarity?s1= Using complementary priors, we derive a fast greedy
+https://api.projectoxford.ai/academic/v1.0/similarity?s1=Using complementary priors, we derive a fast greedy
 algorithm that can learn deep directed belief networks one layer at a time
-provided the top two layers form an undirected associative memory &s2= Deep
+provided the top two layers form an undirected associative memory&s2=Deep
 neural nets with a large number of parameters are very powerful machine
 learning systems. However, overfitting is a serious problem in such networks
 
-``` 
+```
+In this example, we show that you can compare 2 abstract text strings to determine if a certain paper is similar enough to warrant further analysis. Here is the output:**Similarity Probability: 0.65028525870666865**
 
 <br>
 
@@ -140,28 +141,17 @@ to small networks
 
 <br>
 
-```
-**Sample Output**
 
+**Sample Output**
 {
 "TextInput1": "happy",
- 
 "TextInput2": "happiness",
- 
-"similarity": [
-
+"similarity": 
+  [
     {
           "logprob": 0.58859153384709628,
-
-  
-},
-
-    ]
-
+    },
+  ]
 }
-
-```
-
-<br>
 
 ...
