@@ -39,27 +39,15 @@ Name | Description
 **SimilarityValue**        |The floating point value representing the cosine similarity of the text inputs of S1 and S2. The output will be a floating point between -1.0 and +1.0
 **aborted** | True if the request timed out.
 <br>
-**Sample Output **
-{
-"TextInput1": "happy",
-"TextInput2": "happiness", 
-"similarity": 
-  [    
-    {          "logprob": 0.58859153384709628,
-    },    
-  ]
-}
-<br>
 
 ```
-## Text String Example:
+**Text String Example:**
 
 ```
 https://api.projectoxford.ai/academic/v1.0/similarity?s1=this text similarity api is really, really cool&s2=this
 text similarity api is really, really awesome
 
 ```
-
 <br>
 In this example, we show that you can input 2 text strings including punctuation markets.
 
@@ -157,7 +145,7 @@ to small networks
 <br>
 
 ```
-## Sample Output
+**Sample Output**
 
 {
 "TextInput1": "happy",
@@ -178,6 +166,6 @@ to small networks
 
 ```
 
-
+<br>
 
 ...
