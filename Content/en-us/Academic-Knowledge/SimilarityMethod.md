@@ -1,5 +1,3 @@
-
-
 <!-- 
 
 NavPath: Academic Knowledge API
@@ -31,42 +29,39 @@ https://api.projectoxford.ai/academic/v1.0/similarity?
 ## Request Parameters
 Name        | Value      | Required?        | Description
 -----------|----------|--------|----------
-**TextInput1**        |Text string S1   |Yes          |The first input string to compare for its cosine similarity
-**TextInput2**        |Text string S2   |Yes          |The first input string to compare for its cosine similarity
+**TextInput 1**        |Text string S1   |Yes          |The first input string to compare for its cosine similarity
+**TextInput 2**        |Text string S2   |Yes          |The first input string to compare for its cosine similarity
 <br>
 
-## Response (JSON)
-
+## Response (Floating Point Value)
 Name | Description
-
 --------|---------
-
-**SimilarityValue**        |The
-floating point value representing the cosine similarity of the text inputs of
-S1 and S2. The output will be a floating point
-between -1.0 and +1.0
-
+**SimilarityValue**        |The floating point value representing the cosine similarity of the text inputs of S1 and S2. The output will be a floating point between -1.0 and +1.0
 **aborted** | True if the request timed out.
-
- 
-
- <br>
-
-#### Text String Example:
+<br>
+**Sample Output **
+{
+"TextInput1": "happy",
+"TextInput2": "happiness", 
+"similarity": 
+  [    
+    {          "logprob": 0.58859153384709628,
+    },    
+  ]
+}
+<br>
 
 ```
+## Text String Example:
 
+```
 https://api.projectoxford.ai/academic/v1.0/similarity?s1=this text similarity api is really, really cool&s2=this
 text similarity api is really, really awesome
 
- 
-
 ```
 
-<br>In this example, we show that you
-can input 2 text strings including punctuation markets.
-
- 
+<br>
+In this example, we show that you can input 2 text strings including punctuation markets.
 
 ```
 
@@ -116,9 +111,7 @@ network, with each relation as the center object and all attribute entities
 linking to it. Example 1.1 (Bibliographic Information Network) A bibliographic
 network consists of rich information about research papers, each written by a
 group of authors, using a set of terms, and published in a venue (a conference
-or
-
-a journal). Such a bibliographic
+or a journal). Such a bibliographic
 network is composed of four types of objects: authors, venues, terms, and
 papers. Links exist between papers and authors by the relation of “write” and
 “written by”, between papers and terms by the relation of “contain” and
@@ -138,13 +131,9 @@ linked clusters of nodes are related to functional units, such as pathways and
 cycles [23].  To extract communities from
 a given undirected network, one typically chooses a scoring function (e.g.,
 modularity) that quantifies the intuition that communities correspond to
-densely linked sets of nodes. Then one applies a procedure to
-
-This paper has been published in
-the Proceedings of 2012 IEEE International Conference on Data Mining (ICDM),
-2012. find sets of nodes with a high value of the scoring function.
-
-Identifying such communities in networks
+densely linked sets of nodes. Then one applies a procedure to 
+This paper has been published in the Proceedings of 2012 IEEE International Conference on Data Mining (ICDM),
+2012. find sets of nodes with a high value of the scoring function. Identifying such communities in networks
 [14], [6], [26], [9] has proven to be a challenging task [10], [18], [17] due
 to three reasons: There exist multiple structural definitions of network
 communities [5], [24]; Even if we would agree on a single common structural
@@ -167,28 +156,20 @@ to small networks
 
 <br>
 
- 
-
- 
-
-```Sample Output
+```
+## Sample Output
 
 {
-
- 
 "TextInput1": "happy",
-
  
 "TextInput2": "happiness",
-
  
 "similarity": [
 
     {
-
           "logprob": 0.58859153384709628,
 
-   
+  
 },
 
     ]
@@ -197,24 +178,6 @@ to small networks
 
 ```
 
-## Error Conditions
 
- 
-
-HTTP
-Status        |Reason | Response
-
------------|----------|--------
-
-**200**   
-|Success | <floating
-point number>
-
-**400**        | Bad request or request invalid | Error
-Message      
-
-**500**        |Internal server error | Error Message
-
-<br>
 
 ...
