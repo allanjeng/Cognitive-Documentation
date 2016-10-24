@@ -33,10 +33,13 @@ E		|Extended metadata (see table below) |String |Equals
 
 ## Extended Metadata Attributes ##
 
-Name    | Description               
+Name    | Description               
 --------|---------------------------	
 DN		| Display Name of the paper 
-D		| Description 
+CC		| Citation Contexts – List of referenced paper ID’s and the corresponding context in the paper (e.g.[{123:[“brown foxes are known for jumping as referenced in paper 123”, “the lazy dogs are a historical misnomer as shown in paper 123”]})
+IA		| Inverted Abstract
+IA.IndexLength	| Number of items in the index
+IA.InvertedIndex	| 
 S		| Sources - list of web sources of the paper, sorted by static rank
 S.Ty	| Source Type (1:HTML, 2:Text, 3:PDF, 4:DOC, 5:PPT, 6:XLS, 7:PS)
 S.U		| Source URL
