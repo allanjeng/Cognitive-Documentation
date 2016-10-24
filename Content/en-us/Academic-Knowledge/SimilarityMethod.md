@@ -1,14 +1,9 @@
 <!-- 
-
 NavPath: Academic Knowledge API
-
 LinkLabel: Similarity Method
-
 Url:
 Academic-Knowledge-API/documentation/SimilarityMethod
-
 Weight: 75
-
 -->
 
 # Similarity Method
@@ -20,7 +15,6 @@ based on 2 text inputs.
 **REST endpoint:**
 
 ```
-
 https://api.projectoxford.ai/academic/v1.0/similarity?
 
 ``` 
@@ -40,6 +34,15 @@ Name | Description
 **aborted** | True if the request timed out.
 <br>
 
+## Error Conditions
+HTTP Status        |Reason | Response
+
+-----------|----------|--------
+
+**200**         |Success | floating point number
+**400**         | Bad request or request invalid | Error Message      
+**500**         |Internal server error | Error Message
+<br>
 ```
 **Text String Example:**
 
