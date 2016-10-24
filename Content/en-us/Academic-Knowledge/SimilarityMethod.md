@@ -13,17 +13,11 @@ Weight: 75
 
 -->
 
- 
-
 # Similarity Method
-
- 
 
 The **similarity** REST API is used to
 calculate used to return a floating point value
 based on 2 text inputs. 
-
- 
 
 **REST endpoint:**
 
@@ -35,24 +29,15 @@ https://api.projectoxford.ai/academic/v1.0/similarity?
 
 <br>
 
- 
-
 ## Request Parameters
 
- 
-
-Name        |Value
-| Required?        |Description
+Name        |Value | Required?        |Description
 
 -----------|----------|--------|----------
 
-**TextInput1**    |Text string S1 |
-Yes        |The first input string to
-compare for its cosine similarity
+**TextInput1**|Text string S1 |Yes|The first input string to compare for its cosine similarity
 
-**TextInput2**        |Text
-string S2| Yes        |The first input
-string to compare for its cosine similarity
+**TextInput2**        |Text string S2| Yes        |The first input string to compare for its cosine similarity
 
 <br>
 
