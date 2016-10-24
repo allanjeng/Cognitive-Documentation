@@ -91,9 +91,9 @@ manual inspection. For each detected community an effort is made to interpret it
 <br>
 {
 <br>
-"TextInput1": "happy",
+"TextInput1": "deep learning",
 <br>
-"TextInput2": "happiness",
+"TextInput2": "machine learning",
 <br>
 "similarity": 
 <br>
@@ -101,7 +101,7 @@ manual inspection. For each detected community an effort is made to interpret it
 <br>
       {
 <br>
-      "logprob": 0.58859153384709628,
+      "logprob": 0.65427660684878586,
 <br>
       },
 <br>
