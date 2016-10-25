@@ -9,7 +9,6 @@ Weight: 75
 
 The **similarity** REST API is used to
 calculate a floating point value based on 2 text inputs. 
-
 **REST endpoint:**
 ```
 https://api.projectoxford.ai/academic/v1.0/similarity
@@ -21,12 +20,11 @@ https://api.projectoxford.ai/academic/v1.0/similarity
 <br>
 For get requests, the parameters should be passed as a URL parameter.  For post requests, the parameters should be passed in the body of the request.
 <br>
-
 ## Request Parameters
-Parameter        | Description     | Parameter        | Required? | Data Type
+Parameter        | Description     | Parameter        | Required | Data Type
 -----------|----------|--------|----------|------------
-**S1**        |String to compare   |Query |yes  |String
-**S2**        |String to compare  | Query |yes  |String
+**S1**        |String to compare   |Query |Yes  |String
+**S2**        |String to compare  | Query |Yes  |String
 <br>
 
 ## Response (Floating Point Value)
@@ -46,7 +44,7 @@ HTTP Status | Reason | Response
 
 **Text String Example:**
 ```
-https://api.projectoxford.ai/academic/v1.0/similarity?s1=Machine learning is the subfield of computer science that gives computers the ability to learn without being explicitly programmed&s2=Evolved from the study of pattern recognition and computational learning theory in artificial intelligence
+https://api.projectoxford.ai/academic/v1.0/similarity?s1=Machine learning is the subfield of computer science that gives computers the ability to learn without being explicitly programmed&s2=Machine learning evolved from the study of pattern recognition and computational learning theory in artificial intelligence
 
 ```
 In this example, we show that you can input 2 text strings including punctuation marks. The output includes:
@@ -89,26 +87,3 @@ In this example, we show that you can compare 2 full paper text strings to deter
 ``` 
 
 <br>
-
-##Sample Output
-{
-<br>
-"TextInput1": "deep learning",
-<br>
-"TextInput2": "machine learning",
-<br>
-"SimilarityValue": 
-<br>
-  [
-<br>
-      {
-<br>
-      "logprob": 0.65427660684878586,
-<br>
-      },
-<br>
-  ]
-<br>
-}
-<br>
-
