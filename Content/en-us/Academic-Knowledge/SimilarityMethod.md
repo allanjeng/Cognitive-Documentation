@@ -1,9 +1,9 @@
-><!-- 
+!-- 
 NavPath: Academic Knowledge API
 LinkLabel: Similarity Method
 Url:Academic-Knowledge-API/documentation/SimilarityMethod
 Weight: 75
--->
+->
 
 # Similarity Method
 
@@ -13,7 +13,7 @@ calculate a floating point value based on 2 text inputs.
 **REST endpoint:**
 ```
 https://api.projectoxford.ai/academic/v1.0/similarity
-``` 
+`` 
 <br>
 **GET https://api.projectoxford.ai/academic/v1.0/similarity**
 <br>
@@ -23,7 +23,7 @@ For get requests, the parameters should be passed as a URL parameter.  For post 
 <br>
 ## Request Parameters
 Parameter        | Description     | Parameter        | Required | Data Type
------------|----------|--------|----------|------------
+----------|----------|--------|----------|------------
 **S1**        |String to compare   |Query |Yes  |String
 **S2**        |String to compare  | Query |Yes  |String
 <br>
@@ -50,7 +50,7 @@ HTTP Status | Reason | Response
 https://api.projectoxford.ai/academic/v1.0/similarity?s1=Machine learning is the subfield of computer science that gives computers the ability to learn without being explicitly programmed&s2=Machine learning evolved from the study of pattern recognition and computational learning theory in artificial intelligence
 
 ```
-In this example, we show that you can input 2 text strings including punctuation marks. The output includes:
+In this example, we show that you can input 2 text strings including punctuation marks. The output would be:
 <br>
 **0.92379162279743876**
 <br>
@@ -66,14 +66,7 @@ neural nets with a large number of parameters are very powerful machine
 learning systems. However, overfitting is a serious problem in such networks
 
 ```
-In this example, we show that you can compare 2 abstract text strings to determine if a certain paper is similar enough to warrant further analysis. Using word embedding and word vectors, the similarity API will assess the similarity of not only words but concepts of the related texts. Output includes:
+In this example, we show that you can compare 2 abstract text strings to determine if a certain paper is similar enough to warrant further analysis. Using word embedding and word vectors, the similarity API will assess the similarity of not only words but concepts of the related texts. Output would be:
 <br>
 **0.65028525870666865**
 
-<br>
-
-
-
-``` 
-
-<br>
