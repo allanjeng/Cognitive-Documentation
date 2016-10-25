@@ -16,10 +16,10 @@ For more information on the Microsoft Academic Graph, see [http://aka.ms/academi
 ## Features
 Rest Endpoints      | Description
 ---------------|----------
-**1. interpret**  |Interprets a natural language user query string. Returns annotated interpretations to enable rich search-box auto-completion experiences that anticipate what the user is typing.
-**2. evaluate** |Evaluates a query expression and returns Academic Knowledge entity results. 
-**3. calchistogram**  |Calculates a histogram of the distribution of attribute values for the academic entities returned by a query expression, such as the distribution of citations by year for a given author.
-**4. similarity** | Calculates a floating point value based on 2 text inputs. Using the embeddings trained on our academic corpus, the similarity API will assess the similarity of not only words but concepts of the related texts in the academic context
+**interpret**   |Interprets a natural language user query string. Returns annotated interpretations to enable rich search-box auto-completion experiences that anticipate what the user is typing.
+**evaluate**    |Evaluates a query expression and returns Academic Knowledge entity results. 
+**calchistogram**   |Calculates a histogram of the distribution of attribute values for the academic entities returned by a query expression, such as the distribution of citations by year for a given author.
+**similarity**  | Calculates a floating point value based on 2 text inputs. Using the embeddings trained on our academic corpus, the similarity API will assess the similarity of not only words but concepts of the related texts in the academic context
 
 <br>
 
