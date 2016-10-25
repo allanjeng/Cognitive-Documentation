@@ -12,12 +12,12 @@ calculate a floating point value based on 2 text inputs.
 
 **REST endpoint:**
 ```
-https://api.projectoxford.ai/academic/v1.0/similarity?
+https://api.projectoxford.ai/academic/v1.0/similarity
 ``` 
 <br>
-**GET http://academic-api-similarity.cloudapp.net/api/similarity?**
+**GET https://api.projectoxford.ai/academic/v1.0/similarity**
 <br>
-**POST http://academic-api-similarity.cloudapp.net/api/similarity**
+**POST https://api.projectoxford.ai/academic/v1.0/similarity**
 <br>
 For get requests, the parameters should be passed as a URL parameter.  For post requests, the parameters should be passed in the body of the request.
 <br>
