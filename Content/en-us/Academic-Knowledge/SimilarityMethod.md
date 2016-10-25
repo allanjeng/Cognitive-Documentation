@@ -3,7 +3,7 @@ NavPath: Academic Knowledge API
 LinkLabel: Similarity Method
 Url:Academic-Knowledge-API/documentation/SimilarityMethod
 Weight: 75
-->
+-->
 
 # Similarity Method
 
