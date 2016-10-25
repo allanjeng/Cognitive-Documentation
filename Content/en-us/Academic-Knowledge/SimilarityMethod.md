@@ -9,6 +9,7 @@ Weight: 75
 
 The **similarity** REST API is used to
 calculate a floating point value based on 2 text inputs. 
+<br>
 **REST endpoint:**
 ```
 https://api.projectoxford.ai/academic/v1.0/similarity
