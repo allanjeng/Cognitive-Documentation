@@ -11,14 +11,11 @@ The **similarity** REST API is used to
 calculate a floating point value based on 2 text inputs. 
 
 **REST endpoint:**
-
 ```
 https://api.projectoxford.ai/academic/v1.0/similarity?
-
 ``` 
 <br>
-
-**GET http://academic-api-similarity.cloudapp.net/api/similarity**
+**GET http://academic-api-similarity.cloudapp.net/api/similarity?**
 <br>
 **POST http://academic-api-similarity.cloudapp.net/api/similarity**
 <br>
