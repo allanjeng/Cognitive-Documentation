@@ -20,7 +20,8 @@ https://api.projectoxford.ai/academic/v1.0/similarity?
 
 **GET http://academic-api-similarity.cloudapp.net/api/similarity**
 <br>
-** POST http://academic-api-similarity.cloudapp.net/api/similarity**
+**POST http://academic-api-similarity.cloudapp.net/api/similarity**
+<br>
 For get requests, the parameters should be passed as a URL parameter.  For post requests, the parameters should be passed in the body of the request.
 <br>
 
