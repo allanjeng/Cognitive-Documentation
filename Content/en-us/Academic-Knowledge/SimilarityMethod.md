@@ -49,11 +49,9 @@ HTTP Status | Reason | Response
 https://api.projectoxford.ai/academic/v1.0/similarity?s1=Machine learning is the subfield of computer science that gives computers the ability to learn without being explicitly programmed&s2=Evolved from the study of pattern recognition and computational learning theory in artificial intelligence
 
 ```
-In this example, we show that you can input 2 text strings including punctuation marks. 
+In this example, we show that you can input 2 text strings including punctuation marks. The output includes:
 <br>
-Here is the output:
-<br>
-**Similarity probability: 0.92379162279743876**
+**Similarity: 0.92379162279743876**
 <br>
 
 **Abstract Comparison Example:**
@@ -67,11 +65,9 @@ neural nets with a large number of parameters are very powerful machine
 learning systems. However, overfitting is a serious problem in such networks
 
 ```
-In this example, we show that you can compare 2 abstract text strings to determine if a certain paper is similar enough to warrant further analysis. Using word embedding and word vectors, the similarity API will assess the similarity of not only words but concepts of the related texts.
+In this example, we show that you can compare 2 abstract text strings to determine if a certain paper is similar enough to warrant further analysis. Using word embedding and word vectors, the similarity API will assess the similarity of not only words but concepts of the related texts. Output includes:
 <br>
-Here is the output:
-<br>
-**Similarity Probability: 0.65028525870666865**
+**Similarity: 0.65028525870666865**
 
 <br>
 
@@ -84,6 +80,11 @@ or a journal). Such a bibliographic network is composed of four types of objects
 linked clusters of nodes are related to functional units, such as pathways and cycles [23].  To extract communities from a given undirected network, one typically chooses a scoring function (e.g., modularity) that quantifies the intuition that communities correspond to densely linked sets of nodes. Then one applies a procedure to  This paper has been published in the Proceedings of 2012 IEEE International Conference on Data Mining (ICDM), 2012. find sets of nodes with a high value of the scoring function. Identifying such communities in networks [14], [6], [26], [9] has proven to be a challenging task [10], [18], [17] due to three reasons: There exist multiple structural definitions of network communities [5], [24]; Even if we would agree on a single common structural
 definition (i.e., a single scoring function), the formalizations of community detection lead to NP-hard problems [26]; And, the lack of reliable groundtruth makes evaluation extremely difficult.  Currently the performance of community detection methods is evaluated by
 manual inspection. For each detected community an effort is made to interpret it as a “real” community by identifying a common property or external attribute shared by all the members of the community. For example, when examining communities in a scientific collaboration network, we might by manual inspection discover that many of detected communities correspond to groups of scientists working in common areas of science [22]. Such anecdotal evaluation procedures require extensive manual effort, are non-comprehensive and limited to small networks
+
+<br>
+In this example, we show that you can compare 2 full paper text strings to determine if 2 papers are similar. Output includes:
+<br>
+**Similarity: 0.65028525870666865**
 
 ``` 
 
