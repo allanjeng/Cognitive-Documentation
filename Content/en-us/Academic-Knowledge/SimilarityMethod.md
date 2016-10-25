@@ -7,7 +7,7 @@ Weight: 75
 
 # Similarity Method
 
-eThe **similarity** REST API is used to
+The **similarity** REST API is used to
 calculate a floating point value based on 2 text inputs. 
 
 **REST endpoint:**
@@ -17,27 +17,30 @@ https://api.projectoxford.ai/academic/v1.0/similarity?
 
 ``` 
 <br>
-W
+
+**GET http://academic-api-similarity.cloudapp.net/api/similarity**
+<br>
+
 ## Request Parameters
-Name        | Value      | Required?        | Description
------------|----------|--------|----------
-**TextInput 1**        |Text string S1   |Yes          |The first input string to compare for its cosine similarity
-**TextInput 2**        |Text string S2   |Yes          |The first input string to compare for its cosine similarity
+Parameter        | Description     | Parameter        | Required? | Data Type
+-----------|----------|--------|----------|------------
+**S1**        |String to compare   |Query |yes  |String
+**S2**        |String to compare  | Query |yes  |String
 <br>
 
 ## Response (Floating Point Value)
 Name | Description
 --------|---------
-**SimilarityValue**        |The floating point value representing the cosine similarity of the text inputs of S1 and S2. The output will be a floating point between -1.0 and +1.0
-**aborted** | True if the request timed out.
+**SimilarityValue**        |The floating point value representing the cosine similarity of the text inputs of S1 and S2. The output will be a floating point between -1.0 and +1.0. Example is 0.936232342343 representing a high degree of similarity or -0.7893935 representing a low degree of similarity. 
 <br>
 
-## Error Conditions
+## Success/Error Conditions
 HTTP Status | Reason | Response
 -----------|----------|--------
 **200**         |Success | floating point number
 **400**         | Bad request or request invalid | Error Message      
 **500**         |Internal server error | Error Message
+**aborted**     | true if request timed out.  | Error state
 <br>
 
 **Text String Example:**
