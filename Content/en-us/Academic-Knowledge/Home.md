@@ -14,8 +14,8 @@ The MAG data is mined from the Bing web index as well as an in-house knowledge b
 For more information on the Microsoft Academic Graph, see [http://aka.ms/academicgraph](http://aka.ms/academicgraph).
 
 ## Features
-Rest Endpoints  | Description
------------|----------
+Rest Endpoints      | Description
+---------------|----------
 **1. interpret**  |Interprets a natural language user query string. Returns annotated interpretations to enable rich search-box auto-completion experiences that anticipate what the user is typing.
 **2. evaluate** |Evaluates a query expression and returns Academic Knowledge entity results. 
 **3. calchistogram**  |Calculates a histogram of the distribution of attribute values for the academic entities returned by a query expression, such as the distribution of citations by year for a given author.
