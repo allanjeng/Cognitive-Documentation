@@ -1,4 +1,4 @@
-!-- 
+<!-- 
 NavPath: Academic Knowledge API
 LinkLabel: Similarity Method
 Url:Academic-Knowledge-API/documentation/SimilarityMethod
