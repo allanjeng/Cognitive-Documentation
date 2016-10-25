@@ -1,3 +1,4 @@
+
 <!-- 
 NavPath: Academic Knowledge API
 LinkLabel: Similarity Method
@@ -19,6 +20,8 @@ https://api.projectoxford.ai/academic/v1.0/similarity?
 <br>
 
 **GET http://academic-api-similarity.cloudapp.net/api/similarity**
+** POST http://academic-api-similarity.cloudapp.net/api/similarity**
+For get requests, the parameters should be passed as a URL parameter.  For post requests, the parameters should be passed in the body of the request.
 <br>
 
 ## Request Parameters
@@ -40,13 +43,12 @@ HTTP Status | Reason | Response
 **200**         |Success | floating point number
 **400**         | Bad request or request invalid | Error Message      
 **500**         |Internal server error | Error Message
-**aborted**     | true if request timed out.  | Error state
+**Timed out**     | request timed out.  | Error state
 <br>
 
 **Text String Example:**
 ```
-https://api.projectoxford.ai/academic/v1.0/similarity?s1=this text similarity api is really, really cool&s2=this
-text similarity api is really, really awesome
+https://api.projectoxford.ai/academic/v1.0/similarity?s1=Machine learning is the subfield of computer science that gives computers the ability to learn without being explicitly programmed&s2=Evolved from the study of pattern recognition and computational learning theory in artificial intelligence
 
 ```
 In this example, we show that you can input 2 text strings including punctuation marks. 
