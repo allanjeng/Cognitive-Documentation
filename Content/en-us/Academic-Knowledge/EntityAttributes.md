@@ -28,8 +28,12 @@ C.CId	|Conference series ID		|Int64		|Equals
 RId	    |Reference ID				|Int64[]		|Equals
 W       |Words from paper title/abstract for full text search |String[] |Equals
 E		|Extended metadata (see table below) |String |Equals  
-		
-
+CIL	| Conference Instance Location
+CISD	| Conference Instance Start Date
+CIED	| Conference Instance End Date
+CISDD	| Conference Instance Submission Deadline
+DateCINDD	| Conference Instance Notification Due
+DateCIFVD	| Conference Instance Final Version due Date
 
 ## Extended Metadata Attributes ##
 
