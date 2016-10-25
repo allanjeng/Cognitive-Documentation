@@ -93,7 +93,6 @@ manual inspection. For each detected community an effort is made to interpret it
 <br>
 
 ##Sample Output
-<br>
 {
 <br>
 "TextInput1": "deep learning",
@@ -114,4 +113,4 @@ manual inspection. For each detected community an effort is made to interpret it
 <br>
 }
 <br>
-'''
+
