@@ -92,7 +92,7 @@ manual inspection. For each detected community an effort is made to interpret it
 
 <br>
 
-**Sample Output**
+##Sample Output
 <br>
 {
 <br>
@@ -100,7 +100,7 @@ manual inspection. For each detected community an effort is made to interpret it
 <br>
 "TextInput2": "machine learning",
 <br>
-"SimilarityVale": 
+"SimilarityValue": 
 <br>
   [
 <br>
@@ -114,4 +114,4 @@ manual inspection. For each detected community an effort is made to interpret it
 <br>
 }
 <br>
-...
+'''
