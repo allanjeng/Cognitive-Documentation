@@ -1,6 +1,6 @@
 <!-- 
 NavPath: Academic Knowledge API
-LinkLabel: Similarity Method
+e LinkLabel: Similarity Method
 Url:Academic-Knowledge-API/documentation/SimilarityMethod
 Weight: 75
 -->
@@ -10,7 +10,7 @@ Weight: 75
 The **similarity** REST API is used to calculate a floating point value based on 2 text inputs. 
 <br>
 **REST endpoint:**
-```
+h```
 https://api.projectoxford.ai/academic/v1.0/similarity
 ```
 <br>
@@ -20,7 +20,7 @@ https://api.projectoxford.ai/academic/v1.0/similarity
 <br>
 For get requests, the parameters should be passed as a URL parameter.  For post requests, the parameters should be passed in the body of the request.
 <br>
-## Request Parameters
+T## Request Parameters
 Parameter        | Description     | Parameter        | Required | Data Type
 ----------|----------|--------|----------|------------
 **S1**        |String to compare   |Query |Yes  |String
@@ -65,7 +65,7 @@ neural nets with a large number of parameters are very powerful machine
 learning systems. However, overfitting is a serious problem in such networks
 
 ```
-In this example, we show that you can compare 2 abstract text strings to determine if a certain paper is similar enough to warrant further analysis. Using word embedding and word vectors, the similarity API will assess the similarity of not only words but concepts of the related texts. Output would be:
+In this example, we show that you can compare 2 abstract text strings to determine if a certain paper is similar enough to warrant further analysis. Using word embedding and word vectors, the similarity API will assess the similarity of not only words but concepts of the related texts. The output would be:
 <br>
 **0.65028525870666865**
 
