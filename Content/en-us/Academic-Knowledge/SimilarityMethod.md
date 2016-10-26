@@ -12,7 +12,7 @@ The **similarity** REST API is used to calculate a floating point value based on
 **REST endpoint:**
 ```
 https://api.projectoxford.ai/academic/v1.0/similarity
-`` 
+```
 <br>
 **GET https://api.projectoxford.ai/academic/v1.0/similarity**
 <br>
