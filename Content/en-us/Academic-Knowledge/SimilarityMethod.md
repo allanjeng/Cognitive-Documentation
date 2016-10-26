@@ -20,7 +20,8 @@ https://api.projectoxford.ai/academic/v1.0/similarity
 <br>
 For get requests, the parameters should be passed as a URL parameter.  For post requests, the parameters should be passed in the body of the request.
 <br>
-T## Request ParametersParameter        | Description     | Parameter        | Required | Data Type
+## Request Parameters
+Parameter        | Description     | Parameter        | Required | Data Type
 ----------|----------|--------|----------|------------
 **S1**        |String to compare   |Query |Yes  |String
 **S2**        |String to compare  | Query |Yes  |String
