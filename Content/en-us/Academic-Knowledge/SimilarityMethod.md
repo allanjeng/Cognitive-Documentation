@@ -5,10 +5,9 @@ Url:Academic-Knowledge-API/documentation/SimilarityMethod
 Weight: 75
 -->
 
-# Similarity Method
+## Similarity Method
 
-The **similarity** REST API is used to
-calculate a floating point value based on 2 text inputs. 
+The **similarity** REST API is used to calculate a floating point value based on 2 text inputs. 
 <br>
 **REST endpoint:**
 ```
