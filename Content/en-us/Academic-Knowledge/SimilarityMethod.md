@@ -51,7 +51,7 @@ https://api.projectoxford.ai/academic/v1.0/similarity?s1=Machine learning is the
 ```
 In this example, we show that you can input 2 text strings including punctuation marks. The output would be:
 <br>
-**0.92379162279743876**
+**0.737528106823412**
 <br>
 
 **Abstract Comparison Example:**
