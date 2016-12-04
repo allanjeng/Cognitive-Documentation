@@ -49,7 +49,7 @@ HTTP Status | Reason | Response
 https://api.projectoxford.ai/academic/v1.0/similarity?s1=Machine learning is the subfield of computer science that gives computers the ability to learn without being explicitly programmed&s2=Machine learning evolved from the study of pattern recognition and computational learning theory in artificial intelligence
 
 ```
-In this example, 2 parameters are passed into the **similarity** API. The parameters S1 and S2 represent two strings that are being compared respectively.
+In this example, 2 parameters are passed in to the **similarity** API. The parameters S1 and S2 represent two strings that are being compared respectively.
 The response to this request indicates the similarity between S1 and S2 is:
 <br>
 **0.737**
