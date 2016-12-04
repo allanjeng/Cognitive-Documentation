@@ -21,18 +21,18 @@ https://api.projectoxford.ai/academic/v1.0/similarity
 For get requests, the parameters should be passed as a URL parameter.  For post requests, the parameters should be passed in the body of the request.
 <br>
 ## Request Parameters
-Parameter        | Description     | Parameter        | Required | Data Type
-----------|----------|--------|----------|------------
-**S1**        |String to compare   |Query |Yes  |String
-**S2**        |String to compare  | Query |Yes  |String
+Parameter        |Data Type      |Required | Description
+----------|----------|----------|------------
+**S1**        |String   |Yes  |Input String 1
+**S2**        |String   |Yes  |Input String 2
 <br>
-Strings should be limited to less than 5000 characters.
+**Input strings have limits of roughly 1300 (1294) english characters.**
 <br>
 
 ## Response (Floating Point Value)
 Name | Description
 --------|---------
-**SimilarityValue**        |The floating point value representing the cosine similarity of the text inputs of S1 and S2. The output will be a floating point between -1.0 and +1.0. Example is 0.936232342343 representing a high degree of similarity or -0.7893935 representing a low degree of similarity. 
+**SimilarityValue**        |The floating point value representing the cosine similarity of the text inputs of S1 and S2. The output is represented by a floating point between -1.0 and +1.0. A value like 0.936232342343 represents a high degree of similarity where as a value like -0.7893935 represents a low degree of similarity. 
 <br>
 
 ## Success/Error Conditions
@@ -49,7 +49,8 @@ HTTP Status | Reason | Response
 https://api.projectoxford.ai/academic/v1.0/similarity?s1=Machine learning is the subfield of computer science that gives computers the ability to learn without being explicitly programmed&s2=Machine learning evolved from the study of pattern recognition and computational learning theory in artificial intelligence
 
 ```
-In this example, we show that you can input 2 text strings including punctuation marks. The output would be:
+In this example, 2 parameters are passed into the **similarity** API. The parameters S1 and S2 represent two strings that are being compared respectively.
+The response to this request indicates the similarity between S1 and S2 is:
 <br>
 **0.737**
 <br>
@@ -65,7 +66,7 @@ neural nets with a large number of parameters are very powerful machine
 learning systems. However, overfitting is a serious problem in such networks
 
 ```
-In this example, we show that you can compare 2 abstract text strings to determine if a certain paper is similar enough to warrant further analysis. Using word embedding and word vectors, the similarity API will assess the similarity of not only words but concepts of the related texts. The output would be:
+In this example, abstract of 2 different papers are passed in as parameters to the **similarity** API. Using word embedding and word vectors, the similarity API assesses the **similarity** of the abstracts. By comparing not only the texts, but the concepts of the related texts, the **similarity** API gives a result of:
 <br>
 **0.650**
 
