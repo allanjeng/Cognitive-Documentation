@@ -25,7 +25,7 @@ Parameter        |Data Type      |Required | Description
 ----------|----------|----------|------------
 **s1**        |String   |Yes  |String to be compared
 **s2**        |String   |Yes  |String to be compared
-\*POST request has a limitation of 1MB.
+<sub>\*POST request has a limitation of 1MB.</sub>
 <br>
 ## Response (Floating Point Value)
 Name | Description
