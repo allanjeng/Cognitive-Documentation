@@ -23,7 +23,7 @@ https://api.projectoxford.ai/academic/v1.0/similarity
 <br>
 \*POST request has an limitation of 1MB.
 <br>
-\*To use POST, one option is to create a HTML page with POST request in a form, a example would be:
+\*To use POST, one option is to create a HTML page with POST request in a form, then open it with a browser, an example would be:
 ```
 <form action="https://ppe.api.projectoxford.ai/academic/v1.0/similarity" method="post">
     <input type="text" name="s1" value="s1=First%20String%20to%20be%20Compared" />
@@ -31,7 +31,7 @@ https://api.projectoxford.ai/academic/v1.0/similarity
     <input type="submit" />
 </form>
 ```
-\*Another option is to use a plug-in like Postman in Chrome, which handles the POST request easily. To make POST request, choose x-www-form-urlencoded, and simply type in the key-value-pair s1 and s2 respectively.
+\*Another option is to use a plug-in like Postman in Chrome, which handles the POST request easily. To make POST request, choose x-www-form-urlencoded, and simply input the key-value-pair s1 and s2 respectively.
 
 ## Request Parameters
 Parameter        |Data Type      |Required | Description
