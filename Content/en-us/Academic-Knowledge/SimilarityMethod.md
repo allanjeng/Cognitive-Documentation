@@ -10,6 +10,7 @@ Weight: 75
 The **similarity** REST API is used to calculate a floating point value based on 2 text inputs. 
 <br>
 **REST endpoint:**
+<br>
 **GET**
 ```
 https://api.projectoxford.ai/academic/v1.0/similarity
@@ -20,8 +21,6 @@ https://api.projectoxford.ai/academic/v1.0/similarity
 ```
 <br>
 \*GET request's input length is bounded by the limitation of the length of URL. When the strings are too long to be processed using GET, use POST instead.
-<br>
-\*POST is used when parameters are too long to fit in URL.
 <br>
 \*To use POST, one option is to create a HTML page with POST request in a form, then open it with a browser. Or use a plug-in that sends POST request, and set content-type to x-www-form-urlencoded.
 <br>
