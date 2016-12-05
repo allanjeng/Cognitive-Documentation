@@ -60,7 +60,7 @@ To use the **similarity** API through an HTTP interface, requests are constructe
 
 In this example, abstract of 2 different papers, string 1(s1) and string 2(s2), are passed in as parameters to the **similarity** API. Using word embedding and word vectors, the **similarity** API assesses the abstracts. By comparing not only the texts, but the concepts of the related texts, the **similarity** API returns a result of:
 ```
-**0.650**
+0.650
 ```
 <br>
 
