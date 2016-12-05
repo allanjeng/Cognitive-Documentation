@@ -62,6 +62,6 @@ In this example, abstract of 2 different papers, string 1(s1) and string 2(s2), 
 ```
 **0.650**
 ```
-<br.
+<br>
 
 Microsoft receives the text you provide and may use these submissions to improve the Similarity API and related services. By submitting a text, you confirm that you have followed our Developer Code of Conduct at https://research.microsoft.com/en-us/UM/legal/DeveloperCodeofConductforCognitiveServices.htm.
