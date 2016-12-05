@@ -25,7 +25,7 @@ https://api.projectoxford.ai/academic/v1.0/similarity
 <br>
 \*To use POST, one option is to create a HTML page with POST request in a form, a example would be:
 ```
-<form action="https://ppe.api.projectoxford.ai/academic/v1.0/similarity?" method="post">
+<form action="https://ppe.api.projectoxford.ai/academic/v1.0/similarity" method="post">
     <input type="text" name="s1" value="s1=First%20String%20to%20be%20Compared" />
     <input type="text" name="s2" value="s2=Second%20String%20to%20be%20Compared" />
     <input type="submit" />
