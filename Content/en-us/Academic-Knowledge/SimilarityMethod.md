@@ -44,17 +44,6 @@ HTTP Status | Reason | Response
 **Timed out**     | request timed out.  | Error state
 <br>
 
-**Text String Example:**
-```
-https://api.projectoxford.ai/academic/v1.0/similarity?s1=Machine learning is the subfield of computer science that gives computers the ability to learn without being explicitly programmed&s2=Machine learning evolved from the study of pattern recognition and computational learning theory in artificial intelligence
-
-```
-In this example, 2 parameters are passed in to the **similarity** API. The parameters S1 and S2 represent two strings that are being compared respectively.
-The response to this request indicates the similarity between S1 and S2 is:
-<br>
-**0.737**
-<br>
-
 **Abstract Comparison Example:**
 
 ```
@@ -66,8 +55,11 @@ neural nets with a large number of parameters are very powerful machine
 learning systems. However, overfitting is a serious problem in such networks
 
 ```
-In this example, abstract of 2 different papers are passed in as parameters to the **similarity** API. Using word embedding and word vectors, the similarity API assesses the **similarity** of the abstracts. By comparing not only the texts, but the concepts of the related texts, the **similarity** API gives a result of:
+To use the **similarity** API through an HTTP interface, requests are constructed as URL strings that contains 2 parameters S1 and S2.
+<br>
+In this example, abstract of 2 different papers, String 1(S1) and String 2(S2), are passed in as parameters to the **similarity** API. Using word embedding and word vectors, the **similarity** API assesses the abstracts. By comparing not only the texts, but the concepts of the related texts, the **similarity** API returns a result of:
 <br>
 **0.650**
+<br>
 
 Microsoft receives the text you provide and may use these submissions to improve the Similarity API and related services. By submitting a text, you confirm that you have followed our Developer Code of Conduct at https://research.microsoft.com/en-us/UM/legal/DeveloperCodeofConductforCognitiveServices.htm.
