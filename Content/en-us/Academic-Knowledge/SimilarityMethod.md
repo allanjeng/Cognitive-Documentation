@@ -19,7 +19,6 @@ https://api.projectoxford.ai/academic/v1.0/similarity?
 ```
 https://api.projectoxford.ai/academic/v1.0/similarity?
 ```
-<br>
 \*GET request's input length is bounded by the limitation of the length of URL. When the strings are too long to be processed using GET, use POST instead.
 <br>
 \*To use POST, one option is to create a HTML page with POST request in a form, then open it with a browser. Another option is to use a plug-in that sends POST requests, and set content-type to x-www-form-urlencoded, with key-value-pairs s1 and s2.
@@ -30,7 +29,6 @@ Parameter        |Data Type      |Required | Description
 ----------|----------|----------|------------
 **s1**        |String   |Yes  |String to be compared
 **s2**        |String   |Yes  |String to be compared
-<br>
 \*POST request has a limitation of 1MB.
 <br>
 ## Response (Floating Point Value)
@@ -57,6 +55,9 @@ In this example, abstracts of 2 different papers are passed in as parameters s1 
 0.520
 ```
 By using word embedding and word vectors, the **similarity** API assesses the abstracts based on not only the texts, but the academic concepts of the related texts. 
+<br>
+<br>
+<br>
 <br>
 
 Microsoft receives the text you provide and may use these submissions to improve the Similarity API and related services. By submitting a text, you confirm that you have followed our Developer Code of Conduct at https://research.microsoft.com/en-us/UM/legal/DeveloperCodeofConductforCognitiveServices.htm.
