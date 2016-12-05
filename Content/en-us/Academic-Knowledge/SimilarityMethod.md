@@ -25,7 +25,7 @@ Parameter        |Data Type      |Required | Description
 ----------|----------|----------|------------
 **S1**        |String   |Yes  |Input String 1
 **S2**        |String   |Yes  |Input String 2
-<br>
+
 **Input strings have limits of roughly 1300 (1294) English characters.**
 <br>
 
@@ -56,8 +56,6 @@ provided the top two layers form an undirected associative memory&s2=Deep
 neural nets with a large number of parameters are very powerful machine
 learning systems. However, overfitting is a serious problem in such networks
 ```
-<br>
-
 In this example, abstract of 2 different papers, string 1 (s1) and string 2 (s2), are passed in as parameters to the **similarity** API. Using word embedding and word vectors, the **similarity** API assesses the abstracts. By comparing not only the texts, but the concepts of the related texts, the **similarity** API returns a result of:
 ```
 0.650
