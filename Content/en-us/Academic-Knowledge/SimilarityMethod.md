@@ -21,7 +21,7 @@ https://api.projectoxford.ai/academic/v1.0/similarity
 <br>
 \*POST is used when parameters are too long to fit in URL.
 <br>
-\*POST request has an limitation of 1MB.
+\*POST request has a limitation of 1MB.
 <br>
 \*To use POST, one option is to create a HTML page with POST request in a form, then open it with a browser, an example would be:
 ```
