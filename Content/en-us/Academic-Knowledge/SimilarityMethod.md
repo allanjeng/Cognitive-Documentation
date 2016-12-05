@@ -13,7 +13,6 @@ The **similarity** REST API is used to calculate a floating point value based on
 ```
 https://api.projectoxford.ai/academic/v1.0/similarity
 ```
-<br>
 **GET https://api.projectoxford.ai/academic/v1.0/similarity**
 <br>
 \*GET request's input length is bounded by the limitation of length of URL.
@@ -32,7 +31,7 @@ https://api.projectoxford.ai/academic/v1.0/similarity
     <input type="submit" />
 </form>
 ```
-\*Another option is to use a plug-in like Postman in Chrome, which handles the POST request easily. To make POST request, we choose x-www-form-urlencoded, and simply type in the key-value-pair s1 and s2 respectively.
+\*Another option is to use a plug-in like Postman in Chrome, which handles the POST request easily. To make POST request, choose x-www-form-urlencoded, and simply type in the key-value-pair s1 and s2 respectively.
 
 ## Request Parameters
 Parameter        |Data Type      |Required | Description
