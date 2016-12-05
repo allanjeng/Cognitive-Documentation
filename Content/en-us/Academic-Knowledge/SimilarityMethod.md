@@ -15,11 +15,15 @@ https://api.projectoxford.ai/academic/v1.0/similarity
 ```
 <br>
 **GET https://api.projectoxford.ai/academic/v1.0/similarity**
+<br>
 \*GET request's input length is bounded by the limitation of length of URL.
 <br>
 **POST https://api.projectoxford.ai/academic/v1.0/similarity**
+<br>
 \*POST is used when parameters are too long to fit in URL.
+<br>
 \*POST request has an limitation of 1MB.
+<br>
 \*To use POST, one option is to create a HTML page with POST request in a form, a example would be:
 ```
 <form action="https://ppe.api.projectoxford.ai/academic/v1.0/similarity?" method="post">
