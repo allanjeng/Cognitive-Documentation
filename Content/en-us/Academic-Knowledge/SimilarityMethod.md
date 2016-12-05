@@ -58,7 +58,7 @@ learning systems. However, overfitting is a serious problem in such networks
 To use the **similarity** API through an HTTP interface, requests are constructed as URL strings that contains 2 parameters s1 and s2.
 <br>
 
-In this example, abstract of 2 different papers, string 1(s1) and string 2(s2), are passed in as parameters to the **similarity** API. Using word embedding and word vectors, the **similarity** API assesses the abstracts. By comparing not only the texts, but the concepts of the related texts, the **similarity** API returns a result of:
+In this example, abstract of 2 different papers, string 1 (s1) and string 2 (s2), are passed in as parameters to the **similarity** API. Using word embedding and word vectors, the **similarity** API assesses the abstracts. By comparing not only the texts, but the concepts of the related texts, the **similarity** API returns a result of:
 ```
 0.650
 ```
