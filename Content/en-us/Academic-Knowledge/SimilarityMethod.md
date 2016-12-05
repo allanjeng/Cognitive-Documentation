@@ -11,17 +11,11 @@ The **similarity** REST API is used to calculate a floating point value based on
 <br>
 **REST endpoint:**
 <br>
-**GET**
-```
-https://api.projectoxford.ai/academic/v1.0/similarity?
-```
-**POST**
-```
-https://api.projectoxford.ai/academic/v1.0/similarity?
-```
+**GET**```https://api.projectoxford.ai/academic/v1.0/similarity?```
+**POST**```https://api.projectoxford.ai/academic/v1.0/similarity?```
 \*GET request's input length is bounded by the limitation of the length of URL. When the strings are too long to be processed using GET, use POST instead.
 <br>
-\*To use POST, one option is to create a HTML page with POST request in a form, then open it with a browser. Another option is to use a plug-in that sends POST requests, and set content-type to x-www-form-urlencoded, with key-value-pairs s1 and s2.
+\*To use POST, set content-type to x-www-form-urlencoded, with key-value-pairs s1 and s2.
 <br>
 
 ## Request Parameters
@@ -34,15 +28,15 @@ Parameter        |Data Type      |Required | Description
 ## Response (Floating Point Value)
 Name | Description
 --------|---------
-**SimilarityValue**        |The floating point value representing the cosine similarity of the text inputs of S1 and S2. The output is represented by a floating point between -1.0 and +1.0. The **similarity** API evaluates the strings base on their academic concepts, with +1.0 being the most similar and -1.0 being the most different.
+**SimilarityValue**        |The floating point value representing the cosine similarity of the text inputs of S1 and S2. The output is represented by a floating point between -1.0 and +1.0. The **similarity** API evaluates the strings base on their academic concepts, with +1.0 being the most similar and -1.0 being the least similar.
 <br>
 
 ## Success/Error Conditions
 HTTP Status | Reason | Response
 -----------|----------|--------
-**200**         |Success | floating point number
-**400**         | Bad request or request invalid | Error Message      
-**500**         |Internal server error | Error Message
+**200**         |Success | Floating point number
+**400**         | Bad request or request invalid | Error message      
+**500**         |Internal server error | Error message
 **Timed out**     | request timed out.  | Error state
 <br>
 
