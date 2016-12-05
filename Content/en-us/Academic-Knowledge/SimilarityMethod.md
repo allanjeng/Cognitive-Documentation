@@ -46,16 +46,16 @@ HTTP Status | Reason | Response
 
 **Abstract Comparison Example:**
 
-```
+To use the **similarity** API through an HTTP interface, requests are constructed as URL strings that contains 2 parameters s1 and s2.
 
+The following example requests the similarity between 2 papers:
+```
 https://api.projectoxford.ai/academic/v1.0/similarity?s1=Using complementary priors, we derive a fast greedy
 algorithm that can learn deep directed belief networks one layer at a time
 provided the top two layers form an undirected associative memory&s2=Deep
 neural nets with a large number of parameters are very powerful machine
 learning systems. However, overfitting is a serious problem in such networks
-
 ```
-To use the **similarity** API through an HTTP interface, requests are constructed as URL strings that contains 2 parameters s1 and s2.
 <br>
 
 In this example, abstract of 2 different papers, string 1 (s1) and string 2 (s2), are passed in as parameters to the **similarity** API. Using word embedding and word vectors, the **similarity** API assesses the abstracts. By comparing not only the texts, but the concepts of the related texts, the **similarity** API returns a result of:
