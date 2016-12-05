@@ -26,7 +26,7 @@ Parameter        |Data Type      |Required | Description
 **S1**        |String   |Yes  |Input String 1
 **S2**        |String   |Yes  |Input String 2
 <br>
-**Input strings have limits of roughly 1300 (1294) english characters.**
+**Input strings have limits of roughly 1300 (1294) English characters.**
 <br>
 
 ## Response (Floating Point Value)
@@ -46,7 +46,7 @@ HTTP Status | Reason | Response
 
 **Abstract Comparison Example:**
 
-To use the **similarity** API through an HTTP interface, requests are constructed as URL strings that contains 2 parameters s1 and s2.
+To use the **similarity** API through an HTTP interface, requests are constructed as URL strings that contain 2 parameters, s1 and s2 respectively.
 
 The following example requests the similarity between 2 papers:
 ```
